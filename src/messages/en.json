@@ -1,0 +1,776 @@
+{
+  "Common": {
+    "brand": "JOLA School",
+    "tagline": "Challenging Minds. Nurturing Souls.",
+    "bookVisit": "Book a visit",
+    "discover": "Discover JOLA",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "explore": "Explore",
+    "viewAll": "View all",
+    "contactAdmissions": "Contact admissions",
+    "previous": "Previous",
+    "next": "Next",
+    "close": "Close",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Spanish",
+    "placeholderPhoto": "Placeholder image",
+    "demoContent": "Demo content",
+    "sampleFormat": "Sample format",
+    "pendingConfirmation": "To be confirmed",
+    "skipToContent": "Skip to content",
+    "backHome": "Back to home",
+    "loading": "Loading",
+    "sending": "Sending…",
+    "optional": "Optional",
+    "requiredHint": "Fields marked * are required.",
+    "allRightsReserved": "All rights reserved.",
+    "parentLabel": "JOLA Parent"
+  },
+  "Nav": {
+    "about": "About JOLA",
+    "academics": "Academics",
+    "life": "Life at JOLA",
+    "admissions": "Admissions",
+    "stories": "JOLA Stories",
+    "mainNavigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "aboutMenu": {
+      "philosophy": "Our philosophy",
+      "mission": "Mission & vision",
+      "values": "Our values",
+      "team": "Our team",
+      "history": "Our history"
+    },
+    "academicsMenu": {
+      "earlyYears": "Early Years",
+      "elementary": "Elementary",
+      "middleSchool": "Middle School",
+      "highSchool": "High School",
+      "steam": "STEAM",
+      "english": "English",
+      "technology": "Technology"
+    },
+    "lifeMenu": {
+      "campus": "Campus",
+      "sports": "Sports",
+      "arts": "Arts",
+      "music": "Music",
+      "clubs": "Clubs",
+      "equestrian": "Equestrian",
+      "stallions": "Stallions"
+    },
+    "admissionsMenu": {
+      "process": "Process",
+      "requirements": "Requirements",
+      "bookVisit": "Book a visit",
+      "contact": "Contact admissions"
+    }
+  },
+  "Footer": {
+    "tagline": "Challenging Minds. Nurturing Souls.",
+    "description": "A bilingual education in Cochabamba, Bolivia.",
+    "columns": {
+      "about": {
+        "title": "About JOLA",
+        "links": {
+          "philosophy": "Our philosophy",
+          "mission": "Mission & vision",
+          "values": "Our values",
+          "team": "Our team",
+          "history": "Our history"
+        }
+      },
+      "academics": {
+        "title": "Academics",
+        "links": {
+          "earlyYears": "Early Years",
+          "elementary": "Elementary",
+          "middleSchool": "Middle School",
+          "highSchool": "High School",
+          "steam": "STEAM",
+          "english": "English",
+          "technology": "Technology"
+        }
+      },
+      "life": {
+        "title": "Life at JOLA",
+        "links": {
+          "campus": "Campus",
+          "sports": "Sports",
+          "arts": "Arts",
+          "music": "Music",
+          "clubs": "Clubs",
+          "equestrian": "Equestrian",
+          "stallions": "Stallions"
+        }
+      },
+      "admissions": {
+        "title": "Admissions",
+        "links": {
+          "process": "Process",
+          "requirements": "Requirements",
+          "bookVisit": "Book a visit",
+          "contact": "Contact admissions"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact & social",
+      "address": "Cochabamba, Bolivia",
+      "phone": "Phone",
+      "email": "Email",
+      "phonePending": "Phone number pending confirmation",
+      "emailPending": "Email address pending confirmation",
+      "socialPending": "Official profile pending",
+      "pendingNote": "Official contact details and social profiles will be published once confirmed by JOLA."
+    },
+    "bookVisit": "Book a campus visit",
+    "contentNote": "Photography and selected content are clearly marked placeholders pending authorization from JOLA.",
+    "rights": "© {year} JOLA School. All rights reserved.",
+    "enquiries": "Admissions enquiries"
+  },
+  "Metadata": {
+    "home": {
+      "title": "Bilingual education in Cochabamba",
+      "description": "JOLA School is a bilingual school in Cochabamba, Bolivia. A bilingual education that inspires students to learn, create, lead and make a difference in their world."
+    },
+    "about": {
+      "title": "About JOLA",
+      "description": "Discover the philosophy behind JOLA School: challenging minds and nurturing souls through a bilingual education in Cochabamba, Bolivia."
+    },
+    "academics": {
+      "title": "Academics",
+      "description": "Strong academic foundations, meaningful learning experiences and high expectations across Early Years, Elementary, Middle School and High School."
+    },
+    "life": {
+      "title": "Life at JOLA",
+      "description": "Campus, sports, arts, music, clubs, equestrian and the JOLA Stallions: discover life beyond the classroom at JOLA School."
+    },
+    "admissions": {
+      "title": "Admissions",
+      "description": "Discover the JOLA admissions journey: discover, visit, apply and join the school community in Cochabamba, Bolivia."
+    },
+    "bookVisit": {
+      "title": "Book a visit",
+      "description": "Request a campus visit to JOLA School in Cochabamba. Tell us about your family and the admissions team will follow up."
+    },
+    "stories": {
+      "title": "JOLA Stories",
+      "description": "Learning in action, JOLA moments and Stallion spotlights: stories from the JOLA School community."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact JOLA School in Cochabamba, Bolivia, and learn how to book a campus visit."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you are looking for could not be found."
+    }
+  },
+  "Home": {
+    "Hero": {
+      "eyebrow": "A bilingual school in Cochabamba, Bolivia",
+      "titleLine1": "CHALLENGING MINDS.",
+      "titleLine2": "NURTURING SOULS.",
+      "subtitle": "A bilingual education that inspires students to learn, create, lead and make a difference in their world.",
+      "primaryCta": "Discover JOLA",
+      "secondaryCta": "Book a visit",
+      "scroll": "Scroll to discover",
+      "mediaAlt": "Illustrative placeholder for JOLA hero photography — students arriving on campus",
+      "mediaNote": "Hero film placeholder — replace with authorized JOLA footage.",
+      "trust": "Bilingual education · K–12 · Cochabamba"
+    },
+    "Facts": {
+      "label": "JOLA at a glance",
+      "items": [
+        { "value": "Bilingual", "label": "Education" },
+        { "value": "12*", "label": "Students per classroom" },
+        { "value": "STEAM", "label": "Learning" },
+        { "value": "K–12", "label": "Education" }
+      ],
+      "footnote": "*The 12-student class size is subject to verification by level before publication as a school-wide fact."
+    },
+    "Why": {
+      "eyebrow": "Why JOLA",
+      "title": "WHY JOLA?",
+      "intro": "Because education is more than preparing students for the future. It is helping them become the people who will shape it.",
+      "cta": "Learn more",
+      "cards": [
+        {
+          "key": "bilingual",
+          "title": "Bilingual education",
+          "description": "English is part of our students' everyday learning experience.",
+          "alt": "Illustrative placeholder — teacher and students interacting in English"
+        },
+        {
+          "key": "small",
+          "title": "Small classrooms",
+          "description": "Our small classroom model allows teachers to know, support and challenge every student.",
+          "alt": "Illustrative placeholder — teacher working with a small group"
+        },
+        {
+          "key": "steam",
+          "title": "STEAM learning",
+          "description": "Students investigate, experiment, create and solve real problems.",
+          "alt": "Illustrative placeholder — science experiment or robotics project"
+        },
+        {
+          "key": "technology",
+          "title": "Technology & innovation",
+          "description": "Technology becomes a tool for creativity, exploration and problem-solving.",
+          "alt": "Illustrative placeholder — student programming or digital drawing"
+        },
+        {
+          "key": "personalized",
+          "title": "Personalized attention",
+          "description": "We seek to understand each student's strengths, needs and way of learning.",
+          "alt": "Illustrative placeholder — teacher helping an individual student"
+        },
+        {
+          "key": "character",
+          "title": "Character development",
+          "description": "Academic growth and character development go hand in hand.",
+          "alt": "Illustrative placeholder — students collaborating"
+        }
+      ]
+    },
+    "Minds": {
+      "eyebrow": "Academic philosophy",
+      "title": "CHALLENGING MINDS",
+      "body": "We challenge our students to question, investigate, think critically, create and solve problems.",
+      "pillars": [
+        { "title": "Critical thinking", "description": "Think beyond the obvious" },
+        { "title": "Creativity", "description": "Imagine new possibilities" },
+        { "title": "Communication", "description": "Express ideas with confidence" },
+        { "title": "Problem solving", "description": "Turn challenges into opportunities" },
+        { "title": "Innovation", "description": "Create, test and improve" }
+      ],
+      "cta": "Explore our academics",
+      "alt": "Illustrative placeholder — students engaged in a science and robotics project"
+    },
+    "Souls": {
+      "eyebrow": "Human development",
+      "title": "NURTURING SOULS",
+      "body": "We want our students to become not only capable learners, but compassionate, responsible and resilient human beings.",
+      "valuesLabel": "The values that guide us",
+      "values": ["Empathy", "Respect", "Responsibility", "Perseverance", "Integrity"],
+      "cta": "Our values",
+      "alt": "Illustrative placeholder — teacher and students sharing a warm moment"
+    },
+    "Journey": {
+      "eyebrow": "Our educational journey",
+      "title": "A PATH FOR EVERY STAGE",
+      "intro": "From the first years of curiosity to preparation for university and beyond.",
+      "ctaPrefix": "Explore",
+      "cards": [
+        {
+          "key": "earlyYears",
+          "title": "Early Years",
+          "grades": "Pre-Kínder & Kínder",
+          "description": "Curiosity begins here. Learning through exploration, play, relationships and meaningful experiences.",
+          "cta": "Explore Early Years",
+          "alt": "Illustrative placeholder — Early Years students"
+        },
+        {
+          "key": "elementary",
+          "title": "Elementary",
+          "grades": "1st–6th Grade",
+          "description": "Building strong foundations. Developing academic skills, independence, creativity and confidence.",
+          "cta": "Explore Elementary",
+          "alt": "Illustrative placeholder — Elementary students"
+        },
+        {
+          "key": "middleSchool",
+          "title": "Middle School",
+          "grades": "7th–9th Grade",
+          "description": "Discovering who I am. Students develop deeper thinking, responsibility, independence and self-awareness.",
+          "cta": "Explore Middle School",
+          "alt": "Illustrative placeholder — Middle School students"
+        },
+        {
+          "key": "highSchool",
+          "title": "High School",
+          "grades": "10th–12th Grade",
+          "description": "Preparing for what comes next. Students strengthen academic skills, leadership, independence and readiness for university and beyond.",
+          "cta": "Explore High School",
+          "alt": "Illustrative placeholder — High School students"
+        }
+      ]
+    },
+    "Experience": {
+      "eyebrow": "The JOLA experience",
+      "title": "LEARNING DOESN'T STOP WHEN THE LESSON ENDS",
+      "intro": "What students actually do beyond lessons.",
+      "cta": "Learn more",
+      "items": [
+        {
+          "key": "science",
+          "title": "Science",
+          "tagline": "Explore. Question. Discover.",
+          "alt": "Illustrative placeholder — students conducting an experiment"
+        },
+        {
+          "key": "robotics",
+          "title": "Robotics & programming",
+          "tagline": "Imagine. Build. Program.",
+          "alt": "Illustrative placeholder — robotics project in action"
+        },
+        {
+          "key": "arts",
+          "title": "Arts",
+          "tagline": "Create. Express. Inspire.",
+          "alt": "Illustrative placeholder — drawing, painting or digital art"
+        },
+        {
+          "key": "music",
+          "title": "Music",
+          "tagline": "Discover. Practice. Perform.",
+          "alt": "Illustrative placeholder — students playing instruments"
+        },
+        {
+          "key": "sports",
+          "title": "Sports",
+          "tagline": "Challenge. Persevere. Achieve.",
+          "alt": "Illustrative placeholder — JOLA sports activities"
+        },
+        {
+          "key": "equestrian",
+          "title": "Equestrian",
+          "tagline": "Discipline. Confidence. Connection.",
+          "alt": "Illustrative placeholder — JOLA equestrian programme"
+        }
+      ]
+    },
+    "SmallClasses": {
+      "eyebrow": "Small classes",
+      "titleLine1": "SMALL CLASSES.",
+      "titleLine2": "BIG POSSIBILITIES.",
+      "stat": "12",
+      "statLabel": "STUDENTS PER CLASSROOM*",
+      "body": "Our small classroom model allows teachers to know their students, understand their learning needs and provide more individualized support.",
+      "footnote": "*Class size subject to verification by grade level before publication.",
+      "cta": "Discover our approach",
+      "alt": "Illustrative placeholder — one teacher with a small group of students"
+    },
+    "Academics": {
+      "eyebrow": "Curriculum",
+      "title": "ACADEMICS AT JOLA",
+      "intro": "Strong academic foundations. Meaningful learning experiences. High expectations.",
+      "items": [
+        { "key": "english", "title": "English" },
+        { "key": "mathematics", "title": "Mathematics" },
+        { "key": "science", "title": "Science" },
+        { "key": "socialStudies", "title": "Social Studies" },
+        { "key": "reading", "title": "Reading" },
+        { "key": "steam", "title": "STEAM" },
+        { "key": "technology", "title": "Technology" },
+        { "key": "arts", "title": "Arts" },
+        { "key": "selfSociety", "title": "Self & Society" }
+      ],
+      "cta": "Explore academics"
+    },
+    "Beyond": {
+      "eyebrow": "Beyond the classroom",
+      "title": "DISCOVER YOUR INTERESTS",
+      "intro": "Discover your interests. Develop your talents. Find your passion.",
+      "cta": "Explore life at JOLA",
+      "items": [
+        { "key": "sports", "title": "Sports", "alt": "Illustrative placeholder — JOLA sports" },
+        { "key": "arts", "title": "Arts", "alt": "Illustrative placeholder — JOLA arts" },
+        { "key": "music", "title": "Music", "alt": "Illustrative placeholder — JOLA music" },
+        { "key": "clubs", "title": "Clubs", "alt": "Illustrative placeholder — JOLA clubs" },
+        { "key": "leadership", "title": "Leadership", "alt": "Illustrative placeholder — student leadership" },
+        { "key": "community", "title": "Community", "alt": "Illustrative placeholder — community activities" }
+      ]
+    },
+    "Values": {
+      "eyebrow": "Our values",
+      "title": "WHAT WE STAND FOR",
+      "centerTitle": "EMPATHY",
+      "centerSubtitle": "The foundation of our values",
+      "centerBody": "Empathy is the foundation of how we treat ourselves, others and our community.",
+      "values": ["Respect", "Responsibility", "Creativity", "Perseverance", "Integrity"],
+      "cta": "Discover our values"
+    },
+    "Day": {
+      "eyebrow": "A day at JOLA",
+      "title": "EVERY DAY BRINGS A NEW OPPORTUNITY",
+      "intro": "To learn, connect, create and grow.",
+      "items": [
+        { "time": "8:00 AM", "title": "Arrival", "description": "The regular school day begins." },
+        { "time": "Morning", "title": "Academic learning", "description": "Focused learning across the curriculum." },
+        { "time": "Midday", "title": "English, STEAM & projects", "description": "Language, inquiry and hands-on projects." },
+        { "time": "Afternoon", "title": "Arts, sports & activities", "description": "Time to create, move and explore." },
+        { "time": "3:15 PM", "title": "End of regular school day", "description": "The academic day concludes." }
+      ],
+      "closing": "Every day brings a new opportunity to learn, connect, create and grow.",
+      "note": "*Exact times to be verified against the official 2026 school schedule before publication."
+    },
+    "Campus": {
+      "eyebrow": "Campus",
+      "title": "A LEARNING ENVIRONMENT DESIGNED TO INSPIRE",
+      "intro": "A learning environment designed to inspire curiosity, creativity, collaboration and growth.",
+      "cta": "Explore our campus",
+      "items": [
+        { "title": "Classrooms", "alt": "Illustrative placeholder — classrooms" },
+        { "title": "Science", "alt": "Illustrative placeholder — science spaces" },
+        { "title": "Robotics", "alt": "Illustrative placeholder — robotics spaces" },
+        { "title": "Arts", "alt": "Illustrative placeholder — arts spaces" },
+        { "title": "Music", "alt": "Illustrative placeholder — music spaces" },
+        { "title": "Sports", "alt": "Illustrative placeholder — sports facilities" },
+        { "title": "Outdoor spaces", "alt": "Illustrative placeholder — outdoor spaces" },
+        { "title": "Students", "alt": "Illustrative placeholder — JOLA students" }
+      ],
+      "lightboxLabel": "Campus photo gallery"
+    },
+    "Stallions": {
+      "eyebrow": "School spirit",
+      "title": "WE ARE JOLA STALLIONS",
+      "keywords": ["Strength", "Determination", "Nobility", "Perseverance"],
+      "body": "The Stallion represents the spirit we want our students to develop: confidence, determination and the courage to keep moving forward.",
+      "cta": "Meet the Stallions",
+      "alt": "Illustrative placeholder — JOLA students representing the Stallion spirit"
+    },
+    "Stories": {
+      "eyebrow": "JOLA stories",
+      "title": "STORIES FROM JOLA",
+      "intro": "What is happening now at JOLA.",
+      "viewAll": "View all stories",
+      "readMore": "Read more",
+      "empty": "Stories will be published here soon.",
+      "demoLabel": "Demo",
+      "demoNote": "The stories shown below are demonstration entries. Authorized JOLA stories will replace them before publication.",
+      "publishedOn": "Published on",
+      "backToStories": "Back to all stories"
+    },
+    "Director": {
+      "eyebrow": "Director's message",
+      "quote": "At JOLA, we believe every student has the potential to learn, grow and thrive. Our responsibility is to challenge each student academically while creating an environment where they feel known, supported and valued.",
+      "name": "Lic. María Teresa Alvestegui",
+      "role": "Director",
+      "cta": "Read the full message",
+      "alt": "Portrait placeholder for Lic. María Teresa Alvestegui"
+    },
+    "Testimonials": {
+      "eyebrow": "Family voices",
+      "title": "WHAT FAMILIES SAY",
+      "intro": "Only authorized JOLA parent testimonials are published here.",
+      "demoNote": "The formats below are illustrative only — they are not verified parent quotes. Authorized testimonials will replace them before publication.",
+      "carouselLabel": "Parent testimonials",
+      "badge": "Sample format",
+      "of": "of",
+      "previousLabel": "Previous testimonial",
+      "nextLabel": "Next testimonial"
+    },
+    "Admissions": {
+      "eyebrow": "Admissions",
+      "title": "READY TO DISCOVER JOLA?",
+      "subtitle": "Your child's journey starts here.",
+      "steps": [
+        { "title": "Discover", "description": "Learn about our philosophy and programs." },
+        { "title": "Visit", "description": "Experience the campus and community." },
+        { "title": "Apply", "description": "Begin the admissions process." },
+        { "title": "Join", "description": "Become part of JOLA." }
+      ],
+      "ctaVisit": "Book a campus visit",
+      "ctaContact": "Contact admissions"
+    },
+    "WhatMakes": {
+      "eyebrow": "What makes JOLA, JOLA?",
+      "title": "WE BELIEVE EVERY CHILD IS DIFFERENT.",
+      "subtitle": "So education should be, too.",
+      "cta": "Discover JOLA",
+      "pillars": [
+        "Small classes",
+        "High expectations",
+        "Strong relationships",
+        "Bilingual learning",
+        "Real experiences",
+        "A caring community"
+      ],
+      "alt": "Illustrative placeholder — a group of JOLA students together"
+    },
+    "FinalCta": {
+      "title": "THE FUTURE STARTS WITH A LOVE FOR LEARNING.",
+      "subtitle": "Discover what makes JOLA different.",
+      "cta": "Book a visit",
+      "alt": "Illustrative placeholder — students walking together"
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "About JOLA",
+      "title": "WHO WE ARE",
+      "description": "A bilingual school in Cochabamba, Bolivia, where academic challenge and human development go hand in hand.",
+      "alt": "Illustrative placeholder — JOLA campus life"
+    },
+    "philosophy": {
+      "eyebrow": "Our philosophy",
+      "title": "CHALLENGING MINDS. NURTURING SOULS.",
+      "paragraphs": [
+        "We challenge our students to question, investigate, think critically, create and solve problems.",
+        "We want our students to become not only capable learners, but compassionate, responsible and resilient human beings."
+      ],
+      "cta": "Explore our academics"
+    },
+    "missionVision": {
+      "eyebrow": "Mission & vision",
+      "title": "OUR PURPOSE",
+      "missionTitle": "Our mission",
+      "missionBody": "A bilingual education that inspires students to learn, create, lead and make a difference in their world.",
+      "visionTitle": "Our vision",
+      "visionBody": "To challenge each student academically while creating an environment where they feel known, supported and valued."
+    },
+    "team": {
+      "eyebrow": "Our team",
+      "title": "LEADERSHIP",
+      "pendingNote": "Additional team profiles will be published once authorized by JOLA.",
+      "directorQuote": "At JOLA, we believe every student has the potential to learn, grow and thrive. Our responsibility is to challenge each student academically while creating an environment where they feel known, supported and valued."
+    },
+    "history": {
+      "eyebrow": "Our history",
+      "title": "OUR STORY",
+      "pendingTitle": "School history pending confirmation",
+      "pendingBody": "JOLA's official history and milestones will be published here once verified by the school."
+    },
+    "cta": {
+      "title": "COME AND SEE JOLA FOR YOURSELF.",
+      "body": "The best way to understand a school is to visit it.",
+      "button": "Book a campus visit"
+    }
+  },
+  "Academics": {
+    "hero": {
+      "eyebrow": "Academics",
+      "title": "A CURRICULUM BUILT ON CURIOSITY",
+      "description": "Strong academic foundations. Meaningful learning experiences. High expectations.",
+      "alt": "Illustrative placeholder — JOLA academic life"
+    },
+    "levels": {
+      "eyebrow": "Our educational journey",
+      "title": "FOUR STAGES, ONE CONTINUUM",
+      "intro": "Each stage builds on the last, with the same commitment to challenge and care."
+    },
+    "subjects": {
+      "eyebrow": "Subjects",
+      "title": "ACADEMIC AREAS",
+      "intro": "A broad academic foundation designed to develop capable, curious and confident learners.",
+      "items": [
+        { "title": "English", "number": "01" },
+        { "title": "Mathematics", "number": "02" },
+        { "title": "Science", "number": "03" },
+        { "title": "Social Studies", "number": "04" },
+        { "title": "Reading", "number": "05" },
+        { "title": "STEAM", "number": "06" },
+        { "title": "Technology", "number": "07" },
+        { "title": "Arts", "number": "08" },
+        { "title": "Self & Society", "number": "09" }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "Learning in practice",
+      "title": "HOW LEARNING COMES TO LIFE"
+    },
+    "english": {
+      "title": "ENGLISH",
+      "body": "English is part of our students' everyday learning experience.",
+      "alt": "Illustrative placeholder — bilingual learning in action"
+    },
+    "steam": {
+      "title": "STEAM",
+      "body": "Students investigate, experiment, create and solve real problems.",
+      "alt": "Illustrative placeholder — science and robotics learning"
+    },
+    "technology": {
+      "title": "TECHNOLOGY & INNOVATION",
+      "body": "Technology becomes a tool for creativity, exploration and problem-solving.",
+      "alt": "Illustrative placeholder — technology and innovation"
+    },
+    "smallClasses": {
+      "title": "SMALL CLASSES",
+      "body": "Our small classroom model allows teachers to know, support and challenge every student.",
+      "cta": "Read about small classes",
+      "alt": "Illustrative placeholder — a teacher working with a small group of students"
+    },
+    "cta": {
+      "title": "READY TO SEE LEARNING IN ACTION?",
+      "body": "Book a campus visit and meet the people who make JOLA.",
+      "button": "Book a visit"
+    }
+  },
+  "Life": {
+    "hero": {
+      "eyebrow": "Life at JOLA",
+      "title": "MORE THAN A CLASSROOM",
+      "description": "What students experience beyond lessons: campus, sport, art, music, clubs, equestrian and the Stallion spirit.",
+      "alt": "Illustrative placeholder — student life at JOLA"
+    },
+    "experience": {
+      "eyebrow": "The JOLA experience",
+      "title": "WHAT STUDENTS DO BEYOND LESSONS",
+      "intro": "Learning doesn't stop when the lesson ends."
+    },
+    "beyond": {
+      "eyebrow": "Beyond the classroom",
+      "title": "DISCOVER YOUR INTERESTS",
+      "intro": "Discover your interests. Develop your talents. Find your passion."
+    },
+    "campus": {
+      "title": "EXPLORE OUR CAMPUS",
+      "cta": "Book a visit"
+    }
+  },
+  "Admissions": {
+    "hero": {
+      "eyebrow": "Admissions",
+      "title": "YOUR CHILD'S JOURNEY STARTS HERE",
+      "description": "Discover JOLA, visit the campus, begin the process and join the community.",
+      "alt": "Illustrative placeholder — the JOLA community"
+    },
+    "process": {
+      "eyebrow": "The admissions journey",
+      "title": "FOUR STEPS TO JOLA"
+    },
+    "requirements": {
+      "eyebrow": "Requirements",
+      "title": "WHAT YOU NEED TO KNOW",
+      "body": "Admission requirements, availability and the documents needed for each grade are confirmed directly by the JOLA admissions team. Contact admissions to receive the current information for your child's level.",
+      "note": "No requirement details have been invented on this website. The school will confirm the official process.",
+      "cta": "Contact admissions",
+      "book": "Book a campus visit"
+    },
+    "cta": {
+      "title": "COME AND SEE FOR YOURSELF.",
+      "body": "Experience the campus and community. Ask questions. Picture your child at JOLA.",
+      "button": "Book a campus visit"
+    }
+  },
+  "BookVisit": {
+    "hero": {
+      "eyebrow": "Book a visit",
+      "title": "COME AND SEE JOLA",
+      "description": "Choose a time to see the campus and meet the admissions team. We will follow up using the details you provide.",
+      "alt": "Illustrative placeholder — JOLA campus visit"
+    },
+    "aside": {
+      "eyebrow": "What to expect",
+      "title": "A VISIT THAT ANSWERS YOUR QUESTIONS",
+      "items": [
+        "See the learning environment and campus.",
+        "Meet the people who work with students every day.",
+        "Ask about the level, curriculum and admissions process."
+      ],
+      "note": "Visits are arranged with the admissions team. Submitting this form is a request, not a confirmed appointment."
+    }
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "WE WOULD BE GLAD TO HEAR FROM YOU",
+      "description": "Contact JOLA School in Cochabamba, Bolivia, or request a campus visit through the admissions team.",
+      "alt": "Illustrative placeholder — JOLA campus"
+    },
+    "details": {
+      "eyebrow": "Contact details",
+      "title": "GET IN TOUCH",
+      "locationTitle": "Location",
+      "locationValue": "Cochabamba, Bolivia",
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "admissionsTitle": "Admissions",
+      "socialTitle": "Social",
+      "pendingTitle": "Official details pending confirmation",
+      "pendingBody": "The school's phone number, email address, exact address, map and official social profiles have not been supplied for publication. They will appear here as soon as JOLA confirms them.",
+      "mapPending": "Map and exact address pending confirmation",
+      "bookTitle": "Visit us",
+      "bookBody": "The best way to understand JOLA is to experience it. Request a campus visit and the admissions team will follow up.",
+      "bookCta": "Book a campus visit"
+    }
+  },
+  "StoriesPage": {
+    "hero": {
+      "eyebrow": "JOLA stories",
+      "title": "LEARNING IN ACTION",
+      "description": "What is happening now at JOLA: learning, community moments and Stallion spotlights.",
+      "alt": "Illustrative placeholder — JOLA stories"
+    },
+    "demoNote": "Some entries are clearly labelled demonstration content. Authorized JOLA stories will replace them before publication.",
+    "empty": "Stories will be published here soon.",
+    "article": {
+      "byline": "JOLA School",
+      "back": "Back to all stories",
+      "demoTitle": "Demonstration content",
+      "demoBody": "This entry is a placeholder for a future authorized JOLA story. No real student, teacher or event is represented.",
+      "relatedCta": "Explore JOLA"
+    }
+  },
+  "Form": {
+    "title": "Book a campus visit",
+    "intro": "Tell us a little about your family and when you would like to visit.",
+    "fields": {
+      "parentName": { "label": "Parent or guardian name", "placeholder": "Full name" },
+      "email": { "label": "Email", "placeholder": "you@example.com" },
+      "phone": { "label": "Phone", "placeholder": "+591 000 00000" },
+      "studentName": { "label": "Student name", "placeholder": "Student's full name" },
+      "grade": { "label": "Grade of interest", "placeholder": "Select a grade" },
+      "preferredDate": { "label": "Preferred date", "placeholder": "Choose a date" },
+      "preferredTime": { "label": "Preferred time", "placeholder": "Select a time" },
+      "message": { "label": "Additional message", "placeholder": "Anything you would like us to know?" }
+    },
+    "gradeOptions": {
+      "earlyYears": "Early Years (Pre-Kínder & Kínder)",
+      "elementary": "Elementary (1st–6th Grade)",
+      "middleSchool": "Middle School (7th–9th Grade)",
+      "highSchool": "High School (10th–12th Grade)",
+      "notSure": "Not sure yet"
+    },
+    "timeOptions": {
+      "morning": "Morning",
+      "midday": "Midday",
+      "afternoon": "Afternoon",
+      "noPreference": "No preference"
+    },
+    "consent": "I agree to be contacted about this visit request.",
+    "privacyNote": "Your details are stored securely and used only to respond to this request.",
+    "requiredNote": "Fields marked * are required.",
+    "optional": "Optional",
+    "submit": "Request a visit",
+    "submitting": "Sending your request…",
+    "successTitle": "Thank you — your request has been received.",
+    "successBody": "The admissions team will follow up using the details you provided.",
+    "successAgain": "Send another request",
+    "errorTitle": "We couldn't send your request.",
+    "errorBody": "Please try again in a moment, or contact admissions directly.",
+    "errorValidation": "Please review the highlighted fields.",
+    "errorDuplicate": "We recently received a request from this email. Please check your inbox or try again later.",
+    "errorRate": "Too many requests have been received from this connection. Please try again later.",
+    "errorUnavailable": "The request service is temporarily unavailable. Please try again later.",
+    "errorSpam": "The form could not be submitted. Please try again.",
+    "preferredDateHint": "Choose a date within the next 12 months.",
+    "honeypotLabel": "Company website (leave blank)",
+    "errors": {
+      "parentName": "Please enter the parent or guardian name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "studentName": "This name is too long.",
+      "grade": "Please choose a valid grade.",
+      "preferredDate": "Please choose a valid future date within the next 12 months.",
+      "preferredTime": "Please choose a valid time.",
+      "message": "Please keep your message under 2000 characters.",
+      "consent": "Please confirm that we may contact you about this visit.",
+      "tooLong": "This value is too long."
+    }
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "THIS PAGE HAS WANDERED OFF CAMPUS.",
+    "body": "The page you are looking for could not be found. Let's get you back to JOLA.",
+    "cta": "Back to home"
+  }
+}

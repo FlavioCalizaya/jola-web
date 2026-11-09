@@ -1,0 +1,117 @@
+// JOLA School — Prisma schema
+// Provider: MySQL (works with MySQL 8+ and MariaDB 10.6+)
+// Run: npx prisma migrate dev --name init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum VisitStatus {
+  NEW
+  CONTACTED
+  SCHEDULED
+  COMPLETED
+  CANCELLED
+}
+
+enum AdminRole {
+  ADMIN
+  EDITOR
+}
+
+// A family requesting a campus visit through the public form.
+model VisitRequest {
+  id            String      @id @default(cuid())
+  parentName    String      @db.VarChar(120)
+  email         String      @db.VarChar(180)
+  phone         String      @db.VarChar(40)
+  studentName   String?     @db.VarChar(120)
+  grade         String?     @db.VarChar(60)
+  preferredDate DateTime?   @db.Date
+  preferredTime String?     @db.VarChar(40)
+  message       String?     @db.Text
+  status        VisitStatus @default(NEW)
+  source        String?     @db.VarChar(80)
+  ipHash        String?     @db.VarChar(64)
+  userAgent     String?     @db.VarChar(255)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([email, createdAt])
+  @@index([status, createdAt])
+  @@index([preferredDate])
+  @@index([ipHash, createdAt])
+}
+
+// News / stories managed in MySQL and rendered on the public site.
+model Story {
+  id          String   @id @default(cuid())
+  title       String   @db.VarChar(180)
+  slug        String   @db.VarChar(180)
+  excerpt     String   @db.Text
+  content     String   @db.LongText
+  image       String   @db.VarChar(500)
+  category    String?  @db.VarChar(60)
+  locale      String   @db.VarChar(5)
+  published   Boolean  @default(false)
+  publishedAt DateTime?
+  isDemo      Boolean  @default(false)
+  authorId    String?
+  author      AdminUser? @relation(fields: [authorId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([slug, locale])
+  @@index([locale, published, publishedAt])
+  @@index([category])
+  @@index([authorId])
+}
+
+// Parent testimonials. Only authorized content should be published.
+model Testimonial {
+  id        String   @id @default(cuid())
+  author    String   @db.VarChar(120)
+  content   String   @db.Text
+  locale    String   @db.VarChar(5)
+  published Boolean  @default(false)
+  isDemo    Boolean  @default(false)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([locale, published, sortOrder])
+}
+
+// Campus gallery. Images can be managed in MySQL and rendered in the gallery.
+model GalleryImage {
+  id        String   @id @default(cuid())
+  title     String   @db.VarChar(120)
+  imageUrl  String   @db.VarChar(500)
+  category  String   @db.VarChar(60)
+  published Boolean  @default(true)
+  isDemo    Boolean  @default(false)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+
+  @@index([published, category, sortOrder])
+}
+
+// Future CMS access. Passwords are stored as bcrypt hashes only.
+model AdminUser {
+  id           String   @id @default(cuid())
+  name         String   @db.VarChar(120)
+  email        String   @unique @db.VarChar(180)
+  passwordHash String   @db.VarChar(255)
+  role         AdminRole @default(EDITOR)
+  lastLoginAt  DateTime?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  stories      Story[]
+}
