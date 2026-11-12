@@ -6,6 +6,8 @@ import {
   createVisitRequest,
   VisitSubmissionError,
 } from "@/services/visits";
+import { sendVisitRequestNotification } from "@/lib/email";
+import { sendVisitRequestWhatsApp } from "@/lib/whatsapp";
 
 export const runtime = "nodejs";
 
@@ -78,6 +80,23 @@ export async function POST(request: Request) {
       ipHash,
       userAgent: truncateUserAgent(request.headers.get("user-agent")),
     });
+
+    // Notificaciones (no bloqueantes): correo y WhatsApp al equipo de admisiones.
+    const notificationData = {
+      id: created.id,
+      parentName: data.parentName,
+      email: data.email,
+      phone: data.phone,
+      studentName: data.studentName ?? null,
+      grade: data.grade ?? null,
+      preferredDate: data.preferredDate ?? null,
+      preferredTime: data.preferredTime ?? null,
+      message: data.message ?? null,
+      createdAt: created.createdAt,
+    };
+
+    void sendVisitRequestNotification(notificationData);
+    void sendVisitRequestWhatsApp(notificationData);
 
     return NextResponse.json(
       { ok: true, id: created.id },
