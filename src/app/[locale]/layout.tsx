@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { WhatsAppFloat } from "@/components/shared/WhatsAppFloat";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site";
 
@@ -114,6 +115,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <SiteFooter />
+          <WhatsAppFloat />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -9,6 +9,7 @@ import { Photo } from "@/components/ui/Photo";
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 import { buildPageMetadata } from "@/lib/metadata";
 import { routing, type Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
@@ -74,6 +75,7 @@ export default async function AcademicsPage({
 
   const t = await getTranslations("Academics");
   const journey = await getTranslations("Home.Journey");
+  const homeAcademics = await getTranslations("Home.Academics");
   const common = await getTranslations("Common");
   const levels = journey.raw("cards") as Array<{
     key: string;
@@ -87,6 +89,7 @@ export default async function AcademicsPage({
     title: string;
     number: string;
   }>;
+  const areaItems = homeAcademics.raw("items") as Array<{ key: string }>;
 
   return (
     <>
@@ -162,17 +165,30 @@ export default async function AcademicsPage({
                   <p className="body-lg mt-5 max-w-xl text-ink-soft">
                     {level.description}
                   </p>
-                  <Link
-                    href="/admissions/book-a-visit"
-                    className="group mt-7 inline-flex items-center gap-3 border-b border-navy/20 pb-2 text-[0.62rem] font-bold uppercase tracking-[0.18em] text-navy transition-colors hover:border-teal hover:text-teal-deep"
-                  >
-                    {common("bookVisit")}
-                    <ArrowUpRight
-                      aria-hidden="true"
-                      className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                      strokeWidth={1.8}
-                    />
-                  </Link>
+                  <div className="mt-7 flex flex-wrap items-center gap-x-8 gap-y-4">
+                    <Link
+                      href={academicHref(level.key)}
+                      className="group inline-flex items-center gap-3 border-b border-teal-deep/30 pb-2 text-[0.62rem] font-bold uppercase tracking-[0.18em] text-teal-deep transition-colors hover:border-teal-deep hover:text-navy"
+                    >
+                      {common("learnMore")}
+                      <ArrowUpRight
+                        aria-hidden="true"
+                        className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                        strokeWidth={1.8}
+                      />
+                    </Link>
+                    <Link
+                      href="/admissions/book-a-visit"
+                      className="group inline-flex items-center gap-3 border-b border-navy/20 pb-2 text-[0.62rem] font-bold uppercase tracking-[0.18em] text-navy transition-colors hover:border-teal hover:text-teal-deep"
+                    >
+                      {common("bookVisit")}
+                      <ArrowUpRight
+                        aria-hidden="true"
+                        className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                        strokeWidth={1.8}
+                      />
+                    </Link>
+                  </div>
                 </Reveal>
               </div>
             ))}
@@ -197,22 +213,24 @@ export default async function AcademicsPage({
                 y={12}
                 className="group border-b border-r border-navy/10"
               >
-                <div className="flex min-h-32 items-start justify-between gap-6 bg-mist p-6 transition-colors hover:bg-white lg:min-h-40 lg:p-8">
+                <Link
+                  href={academicHref(areaItems[index].key)}
+                  className="flex min-h-32 items-start justify-between gap-6 bg-mist p-6 transition-colors hover:bg-white lg:min-h-40 lg:p-8"
+                >
                   <div>
                     <span className="font-sans text-[0.56rem] font-bold tracking-[0.18em] text-gold">
                       {subject.number}
                     </span>
-                    <h3 className="mt-3 font-display text-2xl leading-tight text-navy">
+                    <h3 className="mt-3 font-display text-2xl leading-tight text-navy transition-colors group-hover:text-teal-deep">
                       {subject.title}
                     </h3>
                   </div>
-                  <span
+                  <ArrowUpRight
                     aria-hidden="true"
-                    className="mt-1 inline-flex size-4 shrink-0 items-center justify-center text-navy/25"
-                  >
-                    <span className="size-1.5 rounded-full bg-current" />
-                  </span>
-                </div>
+                    className="mt-1 size-4 shrink-0 text-navy/25 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-teal-deep"
+                    strokeWidth={1.6}
+                  />
+                </Link>
               </Reveal>
             ))}
           </div>
@@ -262,7 +280,7 @@ export default async function AcademicsPage({
                       {body}
                     </p>
                     <Link
-                      href={isSmall ? "/about#philosophy" : "/academics#subjects"}
+                      href={academicHref(pillar.key)}
                       className="group/link mt-6 inline-flex items-center gap-2 text-[0.58rem] font-bold uppercase tracking-[0.18em] text-teal-deep transition-colors hover:text-navy"
                     >
                       {isSmall ? t("smallClasses.cta") : common("learnMore")}

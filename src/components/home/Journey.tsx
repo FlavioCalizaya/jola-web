@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 
 import { Photo } from "../ui/Photo";
 import { Reveal } from "../ui/Reveal";
@@ -12,13 +13,6 @@ const journeyImages = [
   "/images/placeholders/journey-elementary.jpg",
   "/images/placeholders/journey-middle.jpg",
   "/images/placeholders/journey-high.jpg",
-] as const;
-
-const journeyAnchors = [
-  "early-years",
-  "elementary",
-  "middle-school",
-  "high-school",
 ] as const;
 
 export async function Journey() {
@@ -52,7 +46,7 @@ export async function Journey() {
               className="group flex h-full flex-col"
             >
               <Link
-                href={`/academics#${journeyAnchors[index]}`}
+                href={academicHref(card.key)}
                 className="flex h-full flex-col"
               >
                 <div className="relative overflow-hidden">

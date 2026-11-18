@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 
 import { Photo } from "../ui/Photo";
 import { Reveal } from "../ui/Reveal";
@@ -35,7 +36,7 @@ export async function SmallClasses() {
                 {t("footnote")}
               </p>
               <Link
-                href="/academics#small-classes"
+                href={academicHref("smallClasses")}
                 className="group mt-8 inline-flex min-h-12 items-center gap-3 rounded-full bg-navy px-7 py-3 text-[0.66rem] font-bold uppercase tracking-[0.18em] text-white transition-colors hover:bg-teal-deep"
               >
                 {t("cta")}

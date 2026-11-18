@@ -2,13 +2,14 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 
 import { Photo } from "../ui/Photo";
 import { Reveal } from "../ui/Reveal";
 
 const experienceMeta = [
-  { image: "/images/placeholders/experience-science.jpg", href: "/academics#steam" },
-  { image: "/images/placeholders/experience-robotics.jpg", href: "/academics#technology" },
+  { image: "/images/placeholders/experience-science.jpg", href: academicHref("steam") },
+  { image: "/images/placeholders/experience-robotics.jpg", href: academicHref("technology") },
   { image: "/images/placeholders/experience-arts.jpg", href: "/life-at-jola#arts" },
   { image: "/images/placeholders/experience-music.jpg", href: "/life-at-jola#music" },
   { image: "/images/placeholders/experience-sports.jpg", href: "/life-at-jola#sports" },

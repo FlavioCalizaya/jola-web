@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 
 import { Reveal } from "../ui/Reveal";
 import { SectionHeading } from "../ui/SectionHeading";
@@ -45,7 +46,7 @@ export async function AcademicsHome() {
               className="group border-b border-r border-navy/10"
             >
               <Link
-                href={`/academics#${item.key === "selfSociety" ? "self-society" : item.key}`}
+                href={academicHref(item.key)}
                 className="flex min-h-32 items-start justify-between gap-6 bg-mist p-6 transition-colors duration-300 hover:bg-white lg:min-h-40 lg:p-8"
               >
                 <div>

@@ -604,6 +604,173 @@
       "button": "Book a visit"
     }
   },
+  "AcademicsDetail": {
+    "labels": {
+      "area": "Academic area",
+      "stage": "Educational stage",
+      "approach": "Our approach",
+      "highlights": "What students develop",
+      "explore": "Keep exploring",
+      "back": "Back to all academics",
+      "ctaTitle": "SEE LEARNING IN ACTION",
+      "ctaBody": "Visit the campus and discover how these experiences come to life in our classrooms.",
+      "ctaButton": "Book a visit"
+    },
+    "early-years": {
+      "title": "Early Years",
+      "description": "Our youngest learners explore the world through play, relationships and meaningful experiences. Curiosity leads the way as they build confidence, language and independence.",
+      "alt": "Illustrative placeholder - Early Years students exploring",
+      "approach": "Learning is hands-on and play-based. Teachers observe each child, follow their interests and create rich experiences that connect the classroom with the world around them.",
+      "highlights": [
+        "Curiosity and a love of learning",
+        "Language and early literacy",
+        "Social skills and independence"
+      ]
+    },
+    "elementary": {
+      "title": "Elementary",
+      "description": "The elementary years build strong foundations in literacy, numeracy and understanding of the world, while nurturing creativity, independence and a growth mindset.",
+      "alt": "Illustrative placeholder - Elementary students learning",
+      "approach": "Clear foundations meet inquiry-led projects. Students learn to ask questions, explain their thinking and work with others while teachers give focused support.",
+      "highlights": [
+        "Strong literacy and numeracy foundations",
+        "Independent learning habits",
+        "Creativity and collaboration"
+      ]
+    },
+    "middle-school": {
+      "title": "Middle School",
+      "description": "Adolescents develop deeper thinking, stronger responsibility and a clearer sense of who they are as learners and as people.",
+      "alt": "Illustrative placeholder - Middle School students",
+      "approach": "Greater independence is paired with close guidance. Students take ownership of their learning, explore interests and learn to reflect on their strengths and next steps.",
+      "highlights": [
+        "Critical and independent thinking",
+        "Responsibility and self-awareness",
+        "Confidence across subjects"
+      ]
+    },
+    "high-school": {
+      "title": "High School",
+      "description": "The final stages strengthen academic skills, leadership and independence, preparing students for university and for life beyond school.",
+      "alt": "Illustrative placeholder - High School students",
+      "approach": "Rigorous learning is combined with personal support. Students refine their ideas, manage their time and grow into young people ready to lead and contribute.",
+      "highlights": [
+        "University-ready academic skills",
+        "Leadership and responsibility",
+        "Independent, confident learners"
+      ]
+    },
+    "english": {
+      "title": "English",
+      "description": "English is part of everyday learning at JOLA. Students read, write, discuss and present with growing confidence across the curriculum.",
+      "alt": "Illustrative placeholder - bilingual learning in action",
+      "approach": "English is taught as a living language, not as an isolated subject. Students use it to explore ideas, collaborate with peers and share what they have learned.",
+      "highlights": [
+        "Reading and writing with confidence",
+        "Clear communication and presentation",
+        "Learning across languages"
+      ]
+    },
+    "mathematics": {
+      "title": "Mathematics",
+      "description": "Students build number sense, reasoning and problem-solving skills that help them approach unfamiliar challenges with confidence.",
+      "alt": "Illustrative placeholder - students working on mathematics",
+      "approach": "Concepts are introduced through concrete experiences and visual models, then developed through practice, discussion and real-world problems.",
+      "highlights": [
+        "Number sense and fluency",
+        "Logical reasoning",
+        "Problem-solving strategies"
+      ]
+    },
+    "science": {
+      "title": "Science",
+      "description": "Science at JOLA begins with questions. Students observe, investigate and explain the world around them through hands-on exploration.",
+      "alt": "Illustrative placeholder - students conducting an experiment",
+      "approach": "Lessons combine exploration, experimentation and discussion. Students learn to make predictions, test ideas and communicate what they discover.",
+      "highlights": [
+        "Observation and inquiry",
+        "Experiments and evidence",
+        "Explaining the natural world"
+      ]
+    },
+    "social-studies": {
+      "title": "Social Studies",
+      "description": "Students explore people, places, history and communities, building an understanding of how the world works and their place in it.",
+      "alt": "Illustrative placeholder - students exploring history and community",
+      "approach": "Topics are explored through stories, sources, maps and discussion, helping students connect the past with the present and care about their community.",
+      "highlights": [
+        "Understanding communities and cultures",
+        "Historical thinking",
+        "Responsible citizenship"
+      ]
+    },
+    "reading": {
+      "title": "Reading",
+      "description": "Reading opens every other subject. We nurture thoughtful readers who enjoy books and read to learn across the curriculum.",
+      "alt": "Illustrative placeholder - students reading together",
+      "approach": "Daily reading, shared texts and guided discussion help students make meaning, build vocabulary and develop their own voice as readers.",
+      "highlights": [
+        "Reading fluency and comprehension",
+        "Vocabulary growth",
+        "A lifelong love of books"
+      ]
+    },
+    "steam": {
+      "title": "STEAM",
+      "description": "STEAM brings science, technology, engineering, arts and mathematics together. Students investigate, design, build and solve real problems.",
+      "alt": "Illustrative placeholder - science and robotics learning",
+      "approach": "Projects connect disciplines. Students ask questions, build prototypes, test and improve their ideas, learning that mistakes are part of discovery.",
+      "highlights": [
+        "Design and problem-solving",
+        "Creativity through engineering and art",
+        "Collaboration and iteration"
+      ]
+    },
+    "technology": {
+      "title": "Technology and Innovation",
+      "description": "Technology becomes a tool for creativity, exploration and problem-solving rather than an end in itself.",
+      "alt": "Illustrative placeholder - technology and innovation",
+      "approach": "Students learn to use technology thoughtfully and responsibly, creating and sharing work while understanding the ideas behind the tools.",
+      "highlights": [
+        "Digital literacy and confidence",
+        "Creative use of tools",
+        "Computational thinking"
+      ]
+    },
+    "arts": {
+      "title": "Arts",
+      "description": "The arts give students another language for ideas and emotions, developing creativity, expression and appreciation.",
+      "alt": "Illustrative placeholder - students creating art",
+      "approach": "Students explore music, visual art and movement, experimenting with materials and ideas and sharing their work with others.",
+      "highlights": [
+        "Creative expression",
+        "Confidence in performance",
+        "Appreciation of different art forms"
+      ]
+    },
+    "self-society": {
+      "title": "Self and Society",
+      "description": "Students learn about themselves, their relationships and the wider community, developing empathy, responsibility and resilience.",
+      "alt": "Illustrative placeholder - students working together",
+      "approach": "Reflection, conversation and real experiences help students understand their emotions, care for others and take an active role in their community.",
+      "highlights": [
+        "Self-awareness and confidence",
+        "Empathy and respect",
+        "Responsibility in community"
+      ]
+    },
+    "small-classes": {
+      "title": "Small Classes",
+      "description": "Small classes help teachers know every student well: how they learn, what challenges them and what helps them thrive.",
+      "alt": "Illustrative placeholder - a teacher working with a small group",
+      "approach": "With fewer students in the room, teachers can notice needs early, adapt lessons and give feedback that helps every child make steady progress.",
+      "highlights": [
+        "Individual attention",
+        "Stronger teacher-student relationships",
+        "Support matched to each learner"
+      ]
+    }
+  },
   "Life": {
     "hero": {
       "eyebrow": "Life at JOLA",
@@ -691,6 +858,14 @@
       "bookTitle": "Visit us",
       "bookBody": "The best way to understand JOLA is to experience it. Request a campus visit and the admissions team will follow up.",
       "bookCta": "Book a campus visit"
+    },
+    "direct": {
+      "eyebrow": "Get in touch directly",
+      "title": "Have a question?",
+      "body": "Message us on WhatsApp or send us an email. We are here to help.",
+      "whatsapp": "Message us on WhatsApp",
+      "email": "Send an email",
+      "whatsappMessage": "Hello JOLA School, I have a question."
     }
   },
   "StoriesPage": {

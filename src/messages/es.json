@@ -604,6 +604,173 @@
       "button": "Agenda una visita"
     }
   },
+  "AcademicsDetail": {
+    "labels": {
+      "area": "Área académica",
+      "stage": "Etapa educativa",
+      "approach": "Nuestro enfoque",
+      "highlights": "Lo que desarrollan los estudiantes",
+      "explore": "Sigue explorando",
+      "back": "Volver a todas las áreas académicas",
+      "ctaTitle": "VE EL APRENDIZAJE EN ACCIÓN",
+      "ctaBody": "Visita el campus y descubre cómo estas experiencias cobran vida en nuestras aulas.",
+      "ctaButton": "Agenda una visita"
+    },
+    "early-years": {
+      "title": "Early Years (Primeros años)",
+      "description": "Nuestros estudiantes más pequeños exploran el mundo a través del juego, las relaciones y experiencias con sentido. La curiosidad guía el camino mientras desarrollan confianza, lenguaje e independencia.",
+      "alt": "Imagen de referencia — estudiantes de Early Years explorando",
+      "approach": "El aprendizaje es práctico y se basa en el juego. Los docentes observan a cada niño, siguen sus intereses y crean experiencias enriquecedoras que conectan el aula con el mundo que lo rodea.",
+      "highlights": [
+        "Curiosidad y amor por el aprendizaje",
+        "Lenguaje y primeras letras",
+        "Habilidades sociales e independencia"
+      ]
+    },
+    "elementary": {
+      "title": "Elementary (Primaria)",
+      "description": "Los años de primaria construyen bases sólidas de lectura, escritura, matemáticas y comprensión del mundo, al tiempo que fomentan la creatividad, la independencia y una mentalidad de crecimiento.",
+      "alt": "Imagen de referencia — estudiantes de primaria aprendiendo",
+      "approach": "Las bases claras se combinan con proyectos de indagación. Los estudiantes aprenden a hacer preguntas, explicar su pensamiento y trabajar con otros, mientras los docentes brindan apoyo focalizado.",
+      "highlights": [
+        "Bases sólidas de lectura y matemáticas",
+        "Hábitos de aprendizaje autónomo",
+        "Creatividad y colaboración"
+      ]
+    },
+    "middle-school": {
+      "title": "Middle School (Secuencia media)",
+      "description": "Los adolescentes desarrollan un pensamiento más profundo, mayor responsabilidad y una comprensión más clara de quiénes son como estudiantes y como personas.",
+      "alt": "Imagen de referencia — estudiantes de secuencia media",
+      "approach": "La mayor independencia se acompaña de una guía cercana. Los estudiantes asumen la responsabilidad de su aprendizaje, exploran sus intereses y aprenden a reflexionar sobre sus fortalezas y próximos pasos.",
+      "highlights": [
+        "Pensamiento crítico e independiente",
+        "Responsabilidad y autoconocimiento",
+        "Confianza en todas las áreas"
+      ]
+    },
+    "high-school": {
+      "title": "High School (Secundaria)",
+      "description": "Las etapas finales fortalecen las habilidades académicas, el liderazgo y la independencia, preparando a los estudiantes para la universidad y para la vida más allá de la escuela.",
+      "alt": "Imagen de referencia — estudiantes de secundaria",
+      "approach": "El aprendizaje exigente se combina con el apoyo personal. Los estudiantes refinan sus ideas, gestionan su tiempo y crecen como jóvenes listos para liderar y aportar a la comunidad.",
+      "highlights": [
+        "Habilidades académicas listas para la universidad",
+        "Liderazgo y responsabilidad",
+        "Estudiantes independientes y seguros"
+      ]
+    },
+    "english": {
+      "title": "Inglés",
+      "description": "El inglés forma parte del aprendizaje diario en JOLA. Los estudiantes leen, escriben, conversan y presentan con creciente confianza en todas las áreas del currículo.",
+      "alt": "Imagen de referencia — aprendizaje bilingüe en acción",
+      "approach": "El inglés se enseña como un idioma vivo, no como una materia aislada. Los estudiantes lo usan para explorar ideas, colaborar con sus compañeros y compartir lo que han aprendido.",
+      "highlights": [
+        "Lectura y escritura con confianza",
+        "Comunicación y presentaciones claras",
+        "Aprendizaje en dos idiomas"
+      ]
+    },
+    "mathematics": {
+      "title": "Matemáticas",
+      "description": "Los estudiantes desarrollan sentido numérico, razonamiento y habilidades de resolución de problemas que les permiten enfrentar desafíos nuevos con confianza.",
+      "alt": "Imagen de referencia — estudiantes trabajando en matemáticas",
+      "approach": "Los conceptos se introducen a través de experiencias concretas y modelos visuales, y se desarrollan luego con práctica, diálogo y problemas de la vida real.",
+      "highlights": [
+        "Sentido numérico y fluidez",
+        "Razonamiento lógico",
+        "Estrategias de resolución de problemas"
+      ]
+    },
+    "science": {
+      "title": "Ciencias",
+      "description": "Las ciencias en JOLA comienzan con preguntas. Los estudiantes observan, investigan y explican el mundo que los rodea mediante la exploración práctica.",
+      "alt": "Imagen de referencia — estudiantes realizando un experimento",
+      "approach": "Las clases combinan exploración, experimentación y conversación. Los estudiantes aprenden a hacer predicciones, probar ideas y comunicar sus descubrimientos.",
+      "highlights": [
+        "Observación e indagación",
+        "Experimentos y evidencia",
+        "Explicación del mundo natural"
+      ]
+    },
+    "social-studies": {
+      "title": "Ciencias Sociales",
+      "description": "Los estudiantes exploran personas, lugares, historia y comunidades, y construyen una comprensión de cómo funciona el mundo y cuál es su lugar en él.",
+      "alt": "Imagen de referencia — estudiantes explorando historia y comunidad",
+      "approach": "Los temas se exploran a través de historias, fuentes, mapas y conversaciones, ayudando a los estudiantes a conectar el pasado con el presente y a valorar su comunidad.",
+      "highlights": [
+        "Comprensión de comunidades y culturas",
+        "Pensamiento histórico",
+        "Ciudadanía responsable"
+      ]
+    },
+    "reading": {
+      "title": "Lectura",
+      "description": "La lectura abre todas las demás áreas. Formamos lectores atentos que disfrutan los libros y leen para aprender en todo el currículo.",
+      "alt": "Imagen de referencia — estudiantes leyendo juntos",
+      "approach": "La lectura diaria, los textos compartidos y el diálogo guiado ayudan a los estudiantes a construir significado, ampliar su vocabulario y desarrollar su propia voz como lectores.",
+      "highlights": [
+        "Fluidez y comprensión lectora",
+        "Desarrollo de vocabulario",
+        "Amor por los libros para toda la vida"
+      ]
+    },
+    "steam": {
+      "title": "STEAM",
+      "description": "STEAM reúne ciencia, tecnología, ingeniería, artes y matemáticas. Los estudiantes investigan, diseñan, construyen y resuelven problemas reales.",
+      "alt": "Imagen de referencia — aprendizaje de ciencias y robótica",
+      "approach": "Los proyectos conectan distintas disciplinas. Los estudiantes hacen preguntas, crean prototipos, prueban y mejoran sus ideas, y aprenden que los errores son parte del descubrimiento.",
+      "highlights": [
+        "Diseño y resolución de problemas",
+        "Creatividad a través de la ingeniería y el arte",
+        "Colaboración e iteración"
+      ]
+    },
+    "technology": {
+      "title": "Tecnología e Innovación",
+      "description": "La tecnología se convierte en una herramienta de creatividad, exploración y resolución de problemas, no en un fin en sí misma.",
+      "alt": "Imagen de referencia — tecnología e innovación",
+      "approach": "Los estudiantes aprenden a usar la tecnología de forma reflexiva y responsable, creando y compartiendo trabajos mientras comprenden las ideas detrás de las herramientas.",
+      "highlights": [
+        "Alfabetización y confianza digital",
+        "Uso creativo de las herramientas",
+        "Pensamiento computacional"
+      ]
+    },
+    "arts": {
+      "title": "Artes",
+      "description": "Las artes dan a los estudiantes otro lenguaje para sus ideas y emociones, y desarrollan la creatividad, la expresión y la apreciación.",
+      "alt": "Imagen de referencia — estudiantes creando arte",
+      "approach": "Los estudiantes exploran la música, el arte visual y el movimiento, experimentan con materiales e ideas y comparten su trabajo con los demás.",
+      "highlights": [
+        "Expresión creativa",
+        "Confianza al presentar",
+        "Apreciación de distintas formas de arte"
+      ]
+    },
+    "self-society": {
+      "title": "Uno mismo y la Sociedad",
+      "description": "Los estudiantes aprenden sobre sí mismos, sus relaciones y la comunidad, desarrollando empatía, responsabilidad y resiliencia.",
+      "alt": "Imagen de referencia — estudiantes trabajando juntos",
+      "approach": "La reflexión, la conversación y las experiencias reales ayudan a los estudiantes a comprender sus emociones, cuidar de los demás y participar activamente en su comunidad.",
+      "highlights": [
+        "Autoconocimiento y confianza",
+        "Empatía y respeto",
+        "Responsabilidad en la comunidad"
+      ]
+    },
+    "small-classes": {
+      "title": "Aulas pequeñas",
+      "description": "Las aulas pequeñas permiten que los docentes conozcan bien a cada estudiante: cómo aprende, qué lo desafía y qué lo ayuda a crecer.",
+      "alt": "Imagen de referencia — un docente trabajando con un grupo pequeño",
+      "approach": "Con menos estudiantes en el aula, los docentes pueden detectar las necesidades a tiempo, adaptar las clases y dar una retroalimentación que ayude a cada niño a progresar de forma constante.",
+      "highlights": [
+        "Atención individual",
+        "Vínculos más fuertes entre docentes y estudiantes",
+        "Apoyo adaptado a cada estudiante"
+      ]
+    }
+  },
   "Life": {
     "hero": {
       "eyebrow": "Vida en JOLA",
@@ -691,6 +858,14 @@
       "bookTitle": "Visítanos",
       "bookBody": "La mejor forma de entender JOLA es vivirlo. Solicita una visita al campus y el equipo de admisiones se pondrá en contacto.",
       "bookCta": "Agenda una visita al campus"
+    },
+    "direct": {
+      "eyebrow": "Escríbenos directamente",
+      "title": "¿Tienes alguna consulta?",
+      "body": "Escríbenos por WhatsApp o envíanos un correo. Estamos aquí para ayudarte.",
+      "whatsapp": "Escríbenos por WhatsApp",
+      "email": "Enviar un correo",
+      "whatsappMessage": "Hola JOLA School, tengo una consulta."
     }
   },
   "StoriesPage": {

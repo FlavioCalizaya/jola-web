@@ -23,6 +23,8 @@ export const siteConfig = {
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || null,
   admissionsEmail:
     process.env.NEXT_PUBLIC_ADMISSIONS_EMAIL?.trim() || null,
+  /** International WhatsApp number (digits only) for direct wa.me links. */
+  whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.trim() || null,
   mapUrl: process.env.NEXT_PUBLIC_MAP_URL?.trim() || null,
   heroVideoUrl: process.env.NEXT_PUBLIC_HERO_VIDEO_URL?.trim() || null,
   social: [
@@ -50,10 +52,18 @@ export function absoluteUrl(path = "") {
   return new URL(path, `${siteConfig.url}/`).toString();
 }
 
+/** Deep link that opens a WhatsApp chat with the school (with a prefilled message). */
+export function whatsappLink(message?: string) {
+  if (!siteConfig.whatsappNumber) return null;
+  const base = `https://wa.me/${siteConfig.whatsappNumber.replace(/\D/g, "")}`;
+  return message ? `${base}?text=${encodeURIComponent(message)}` : base;
+}
+
 export const hasConfirmedContact = {
   phone: Boolean(siteConfig.phone),
   email: Boolean(siteConfig.email),
   admissionsEmail: Boolean(siteConfig.admissionsEmail),
+  whatsapp: Boolean(siteConfig.whatsappNumber),
   address: Boolean(siteConfig.addressLine),
   social: siteConfig.social.some((item) => Boolean(item.url)),
 };

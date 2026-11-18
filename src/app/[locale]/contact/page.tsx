@@ -3,6 +3,7 @@ import { hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
+import { DirectContact } from "@/components/shared/DirectContact";
 import { PageHero } from "@/components/ui/PageHero";
 import { PendingNotice } from "@/components/ui/PendingNotice";
 import { Photo } from "@/components/ui/Photo";
@@ -166,6 +167,10 @@ export default async function ContactPage({
               body={t("details.pendingBody")}
               className="mt-8"
             />
+
+            <div className="mt-10 border-t border-navy/10 pt-10">
+              <DirectContact />
+            </div>
           </Reveal>
 
           <Reveal delay={0.08}>

@@ -6,10 +6,11 @@ import { notFound } from "next/navigation";
 import { VisitForm } from "@/components/forms/VisitForm";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
+import { WhatsAppIcon } from "@/components/ui/SocialIcon";
 import { Link } from "@/i18n/navigation";
 import { buildPageMetadata } from "@/lib/metadata";
 import { routing, type Locale } from "@/i18n/routing";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, whatsappLink } from "@/lib/site";
 
 export async function generateMetadata({
   params,
@@ -35,6 +36,7 @@ export default async function BookVisitPage({
 
   const t = await getTranslations("BookVisit");
   const contact = await getTranslations("Contact.details");
+  const direct = await getTranslations("Contact.direct");
   const items = t.raw("aside.items") as string[];
 
   return (
@@ -110,6 +112,21 @@ export default async function BookVisitPage({
                 >
                   {contact("pendingTitle")}
                 </Link>
+              )}
+              {whatsappLink(direct("whatsappMessage")) && (
+                <a
+                  href={whatsappLink(direct("whatsappMessage")) ?? "#"}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="mt-4 flex items-center gap-2 text-sm font-semibold text-navy underline-offset-4 hover:underline"
+                >
+                  <WhatsAppIcon
+                    aria-hidden="true"
+                    className="size-4"
+                    strokeWidth={1.7}
+                  />
+                  {direct("whatsapp")}
+                </a>
               )}
             </div>
           </Reveal>

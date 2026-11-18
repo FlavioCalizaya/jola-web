@@ -3,12 +3,13 @@ import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { footerColumns } from "@/lib/navigation-data";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, whatsappLink } from "@/lib/site";
 
 import { Logo } from "../ui/Logo";
 import {
   FacebookIcon,
   InstagramIcon,
+  WhatsAppIcon,
   YoutubeIcon,
 } from "../ui/SocialIcon";
 
@@ -85,6 +86,23 @@ export async function SiteFooter() {
                     <span>{t("contact.phonePending")}</span>
                   </li>
                 )}
+                {whatsappLink() ? (
+                  <li className="flex items-start gap-3">
+                    <WhatsAppIcon
+                      aria-hidden="true"
+                      className="mt-0.5 size-4 shrink-0 text-gold-soft/80"
+                      strokeWidth={1.6}
+                    />
+                    <a
+                      href={whatsappLink() ?? "#"}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="link-underline"
+                    >
+                      WhatsApp
+                    </a>
+                  </li>
+                ) : null}
                 {siteConfig.email ? (
                   <li className="flex items-start gap-3">
                     <Mail

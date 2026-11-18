@@ -2,6 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { academicHref } from "@/lib/academics";
 
 import { Photo } from "../ui/Photo";
 import { Reveal } from "../ui/Reveal";
@@ -10,22 +11,22 @@ import { SectionHeading } from "../ui/SectionHeading";
 const cardMeta = [
   {
     image: "/images/placeholders/why-bilingual.jpg",
-    href: "/academics#english",
+    href: academicHref("english"),
     number: "01",
   },
   {
     image: "/images/placeholders/why-small-classes.jpg",
-    href: "/academics#small-classes",
+    href: academicHref("smallClasses"),
     number: "02",
   },
   {
     image: "/images/placeholders/why-steam.jpg",
-    href: "/academics#steam",
+    href: academicHref("steam"),
     number: "03",
   },
   {
     image: "/images/placeholders/why-technology.jpg",
-    href: "/academics#technology",
+    href: academicHref("technology"),
     number: "04",
   },
   {
